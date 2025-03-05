@@ -10,12 +10,17 @@
     "postinstall": "chmod +x node_modules/.bin/nuxt && nuxt prepare"
   },
   "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
     "@supabase/supabase-js": "^2.49.1",
     "@tailwindcss/vite": "^4.0.8",
     "dotenv": "^16.4.7",
     "nuxt": "^3.15.4",
-    "tailwindcss": "^4.0.8",
     "vue": "latest",
     "vue-router": "latest"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.3",
+    "tailwindcss": "^4.0.9"
   }
 }
