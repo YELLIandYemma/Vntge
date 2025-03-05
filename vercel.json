@@ -1,7 +1,6 @@
 {
   "version": 2,
-
   "installCommand": "npm install",
   "outputDirectory": ".output",
-  "buildCommand": "pnpm install && nuxt prepare && pnpm build"
+  "buildCommand": "pnpm install && pnpm build"
 }
