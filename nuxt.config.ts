@@ -1,5 +1,4 @@
 import tailwindcss from "@tailwindcss/vite";
-
 export default defineNuxtConfig({
   ssr: true, // Enable server-side rendering
   nitro: {
